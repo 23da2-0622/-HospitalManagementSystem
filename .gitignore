@@ -1,0 +1,35 @@
+# Compiled Java class files 
+*.class
+*.jar
+*.war
+*.ear
+
+# VS Code specific files (VS Code Settings)
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA specific files 
+.idea/
+*.iml
+out/
+target/
+
+# Eclipse specific files
+.classpath
+.project
+.settings/
+bin/
+
+# Mac OS specific files 
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
