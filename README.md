@@ -1,25 +1,33 @@
-# Hospital Emergency Management System - CIT300 Assignment
+# Hospital Emergency System - CIT300 Assignment
 
-## Student Information
-- **Name**: [M.D.M.MadhushikaSandamali]
-- **Student ID**: [23da2-0622]
-- **Course**: CIT300 - Data Structures and Algorithms
+## Overview
+This is a Java-based Hospital Management System developed as part of the CIT300 Mid Assignment. It implements four fundamental data structures:
 
-## Project Overview
-This is a Mini Hospital Emergency Management System developed in Java. It simulates patient registration, emergency queuing, treatment tracking, and visit history management using fundamental data structures.
+- **Binary Search Tree (BST)** - For storing and managing patient records
+- **Queue** - For managing emergency patient waiting list (FIFO)
+- **Stack** - For storing treatment history (LIFO)
+- **Singly Linked List** - For maintaining each patient's visit history
 
-## Data Structures Used 
-| Data Structure | Purpose | Implementation |
-| :--- | :--- | :--- |
-| **Binary Search Tree (BST)** | Patient Records Management | Insert, Search, Delete, In-order Traversal (Patient ID) |
-| **Queue (FIFO)** | Emergency Waiting List | Enqueue (Add), Dequeue (Process), Display |
-| **Stack (LIFO)** | Treatment History | Push (Complete), Pop (Undo), Display |
-| **Singly Linked List** | Patient Visit History | Add Visit, Remove Visit, Search Visit, Display History |
+## Features
+- Insert, Search, Delete, and Display patients using BST
+- Enqueue, Dequeue, and Display emergency queue
+- Push, Pop, and Display treatment records
+- Add, Remove, Search, and Display patient visit history
 
-## How to Compile and Run
-1. Open the project folder in VS Code or any Java IDE.
-2. Ensure Java JDK is installed.
-3. Navigate to the `src` folder.
-4. Compile all Java files:
-   ```bash
-   javac *.java
+## How to Run
+1. Compile: `javac src/*.java`
+2. Run: `java -cp src Main`
+
+## Data Structures Used
+| Data Structure | Purpose |
+|----------------|---------|
+| BST | Patient Records (keyed by Patient ID) |
+| Queue | Emergency Patient Waiting List (FIFO) |
+| Stack | Treatment History (LIFO) |
+| Singly Linked List | Patient Visit History |
+
+## Author
+23da2-0622
+
+## GitHub Repository
+https://github.com/23da2-0622/-HospitalManagementSystem
